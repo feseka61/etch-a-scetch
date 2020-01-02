@@ -1,12 +1,22 @@
 :root {
-    --gridNumber: 1 
+    --gridNumber: 1;
+}
+
+body {
+    background-image: url(pictures/backgroundMAIN.jpeg);
 }
 
 div.container {
     display: grid;
     grid-template-columns: repeat(var(--gridNumber), auto); 
-    width: 400px;
-    height: 400px;
-    margin: auto auto auto auto;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto auto auto;
     border: black 0.05px solid;
+    background: white;
+}
+
+div.buttons {
+    text-align: center;
+    margin-top: 20px;
 }
